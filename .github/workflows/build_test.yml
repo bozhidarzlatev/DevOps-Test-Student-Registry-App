@@ -24,8 +24,7 @@ jobs:
       run: npm i
     - name: Run integration tests        
       run: npm test
-    - name: Run Security tests        
-      run: npm audit
+
 
   security_test:
     needs: unit_test
